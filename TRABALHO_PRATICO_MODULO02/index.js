@@ -180,11 +180,14 @@ async function allNameLessCities() {
       return a.Nome.localeCompare(b.Nome);
     });
     await currentState.sort((a, b) => {
-      return b.Nome.length - a.Nome.length;
+      return a.Nome.length - b.Nome.length;
     });
 
     citiesMoreLenght.push(`${currentState[0].Nome} - ${states[i].Sigla}`);
   }
+  await citiesMoreLenght.sort((a, b) => {
+    return a.localeCompare(b);
+  });
 
   await citiesMoreLenght.sort((a, b) => {
     return a.length - b.length;
