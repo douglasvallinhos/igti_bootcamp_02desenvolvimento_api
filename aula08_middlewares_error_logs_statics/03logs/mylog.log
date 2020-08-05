@@ -1,0 +1,7 @@
+2020-08-05T04:51:07.946Z [my-app] error: Error log
+2020-08-05T04:51:07.948Z [my-app] warn: Warn log
+2020-08-05T04:51:07.948Z [my-app] info: Info log
+2020-08-05T04:51:07.948Z [my-app] verbose: Verbose log
+2020-08-05T04:51:07.948Z [my-app] debug: Debug log
+2020-08-05T04:51:07.949Z [my-app] silly: Silly log
+2020-08-05T04:51:07.949Z [my-app] info: Hello with parameter!
